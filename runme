@@ -1,0 +1,21 @@
+#!/bin/bash
+# Make Ubuntu run fast \w
+# From http://itsfoss.com/speed-up-ubuntu-1310/
+
+# Speed Up App Launching
+sudo apt-get install preload
+
+# Use apt-fast for simultaneous downloads
+sudo add-apt-repository ppa:apt-fast/stable
+sudo apt-get update
+sudo apt-get install apt-fast
+
+# Remove language-related ign from apt-get update
+# No need of a translation of package database from English to English.
+sudo echo 'Acquire::Languages "none";' >> /etc/apt/apt.conf.d/00aptitude
+
+# Reduce overheating
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
+sudo tlp start
