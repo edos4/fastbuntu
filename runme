@@ -21,7 +21,7 @@ sudo apt-get install tlp tlp-rdw
 sudo tlp start
 
 #setup apps
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev synaptic chromium-browser vlc nodejs php-cli php-mbstring git unzip php7.0 php-xml mysql-server mysql-client php7.0-mysql php7.0-gd php7.0-curl
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev synaptic chromium-browser vlc nodejs php-cli php-mbstring git unzip php7.0 php-xml mysql-server mysql-client php7.0-mysql php7.0-gd php7.0-curl php7.0-zip
 
 #setup rails
 cd
