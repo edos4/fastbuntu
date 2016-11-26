@@ -1,6 +1,7 @@
 #!/bin/bash
 # Make Ubuntu run fast \w
 # From http://itsfoss.com/speed-up-ubuntu-1310/
+# tests registration branch
 
 # Speed Up App Launching
 sudo apt-get install preload
